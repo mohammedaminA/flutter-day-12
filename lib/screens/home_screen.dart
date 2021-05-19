@@ -35,9 +35,9 @@ class HomeScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Fixtures', style: kMiniTextStyle,),
-                        Text('Results', style: kMiniTextStyle,),
-                        Text('Table', style: kMiniTextStyle,)
+                        FlatButton(child: Text('Fixtures', style: kMiniTextStyle,)),
+                        FlatButton(child: Text('Results', style: kMiniTextStyle,)),
+                        FlatButton(child: Text('Table', style: kMiniTextStyle,))
                       ],
                     ),
                   )
